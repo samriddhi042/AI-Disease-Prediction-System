@@ -30,8 +30,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "https://ai-disease-prediction-system-psi.vercel.app"
+    "https://ai-disease-prediction-system-56ystuglk-samriddhi-s-projects3.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
