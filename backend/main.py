@@ -27,10 +27,13 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 # Enable CORS
+from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "https://ai-disease-prediction-system-56ystuglk-samriddhi-s-projects3.vercel.app"
+        "http://localhost:3000",
+        "https://ai-disease-prediction-system-psi.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
