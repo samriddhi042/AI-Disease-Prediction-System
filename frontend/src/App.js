@@ -262,7 +262,10 @@ useEffect(() => {
 
     console.log(error);
 
-    toast.error("Signup failed");
+    toast.error(
+      error.response?.data?.detail ||
+      "Server waking up... Please wait 30 seconds and try again"
+    );
   }
 };
 
@@ -324,7 +327,10 @@ setCurrentPage("home");
 
     console.log(error);
 
-    toast.error("Login failed");
+    toast.error(
+      error.response?.data?.detail ||
+      "Server waking up... Please wait 30 seconds and try again"
+    );
   }
 };
 
