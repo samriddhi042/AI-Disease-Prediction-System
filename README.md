@@ -1,4 +1,4 @@
-# 🧠 AI Disease Prediction System
+#  AI Disease Prediction System
 
 A full-stack AI-powered healthcare application that predicts diseases based on patient symptoms using Machine Learning.
 
@@ -13,7 +13,7 @@ Built using:
 
 ---
 
-# 🚀 Features
+#  Features
 
 ✅ AI disease prediction
 ✅ User authentication (Signup/Login)
@@ -28,7 +28,7 @@ Built using:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ## Frontend
 
@@ -51,7 +51,7 @@ Built using:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 AI-DISEASE-PREDICTION
 
@@ -64,7 +64,7 @@ AI-DISEASE-PREDICTION
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ## Backend Setup
 
@@ -84,7 +84,7 @@ npm start
 
 ---
 
-# 🌐 Environment Variables
+#  Environment Variables
 
 ## Frontend (.env)
 
@@ -102,7 +102,7 @@ FRONTEND_URL=http://localhost:3000
 
 ---
 
-# 📊 Future Improvements
+#  Future Improvements
 
 * PostgreSQL integration
 * JWT Authentication
@@ -113,6 +113,6 @@ FRONTEND_URL=http://localhost:3000
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Developed as a full-stack AI healthcare project for learning, portfolio, and deployment purposes.
